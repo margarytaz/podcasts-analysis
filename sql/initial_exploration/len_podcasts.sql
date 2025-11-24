@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT podcast_id) FROM `podcast_reviews.podcasts`
