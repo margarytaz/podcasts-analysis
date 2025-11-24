@@ -45,7 +45,7 @@ A database titled ‘podcast_reviews’ has three tables: ‘categories’, ‘p
 
 SQL query to answer this question: [Categories by Podcast Count](sql/analysis/categories_by_count.sql)
 
-* ***Which podcast categories have highest average ratings?***
+* ***Which podcast categories have the highest average ratings?***
 
 <img 
     src="visuals/high_rating_categories.png" 
@@ -56,7 +56,7 @@ SQL query to answer this question: [Categories by Podcast Count](sql/analysis/ca
 
 SQL query to answer this question: [Categories with Highest Ratings](sql/analysis/categories_by_rating.sql)
 
-* ***Which podcast categories simultaneously have low average ratings and low number of podcasts in them?***
+* ***Which podcast categories have the lowest average ratings***
 
 <img 
     src="visuals/low_rating_and_count.png" 
@@ -64,6 +64,8 @@ SQL query to answer this question: [Categories with Highest Ratings](sql/analysi
     width="800" 
     height="500"
 />
+
+SQL query to answer this question: [Categories with Lowest Ratings](sql/analysis/low_rating_categories.sql)
 
 * ***What are top 10 podcasts by review count?***
 
@@ -85,7 +87,7 @@ SQL query to answer this question: [Top 10 Podcasts by Review Count](sql/analysi
     height="650"
 />
 
-SQL query to answer this question: [Top 3 Podcasts in Top 3 Categories](sql/analysis/top_3_in_business_by_rating_and_reviews.sql)
+SQL query to answer this question: [Top 3 Podcasts in Business Category](sql/analysis/top_3_in_business_by_rating_and_reviews.sql)
 
 ## 📈 Insights of Analysis
 
