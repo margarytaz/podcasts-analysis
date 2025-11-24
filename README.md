@@ -59,7 +59,7 @@ SQL query to answer this question: [Categories with Highest Ratings](sql/analysi
 * ***Which podcast categories have the lowest average ratings***
 
 <img 
-    src="visuals/low_rating_and_count.png" 
+    src="visuals/low_rating_categories.png" 
     alt="Categories with low average ratigns and low podcast counts" 
     width="800" 
     height="500"
