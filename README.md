@@ -56,7 +56,7 @@ SQL query to answer this question: [Categories by Podcast Count](sql/analysis/ca
 
 SQL query to answer this question: [Categories with Highest Ratings](sql/analysis/categories_by_rating.sql)
 
-* ***Which podcast categories have the lowest average ratings***
+* ***Which podcast categories have the lowest average ratings?***
 
 <img 
     src="visuals/low_rating_categories.png" 
