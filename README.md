@@ -28,9 +28,9 @@ A database titled ‘podcast_reviews’ has three tables: ‘categories’, ‘p
 />
 
 **Dataset size:**
-‘categories’ table has 212,372 rows.
-‘podcasts’ table has 110,023 rows.
-‘reviews’ table has 2,067,529 rows.
+* ‘categories’ table has 212,372 rows
+* ‘podcasts’ table has 110,023 rows
+* ‘reviews’ table has 2,067,529 rows
 
 ## 🔎 Analysis questions
 
