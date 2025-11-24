@@ -24,4 +24,26 @@ A database titled ‘podcast_reviews’ has three tables: ‘categories’, ‘p
 ‘podcasts’ table has 110,023 rows.
 ‘reviews’ table has 2,067,529 rows.
 
-## 🔎 Key SQL Analysis & Insights
+## 🔎 Analysis
+
+## Insights
+
+**Podcast popularity vs. quality:**
+
+The most popular categories by number of podcasts like `society-culture`, `education`, and `business` all have relatively high podcast counts (13k to 19k) and massive review totals. However, their average ratings cluster tightly between 4.55 and 4.84. This means that there is a mix of high and low quality podcasts that leads to such average values.
+
+In contrast, the categories with the highest ratings like `rugby`, `marketing`, and `entrepreneurship` have smaller podcast counts but their average ratings are much higher, starting at 4.89 and climbing to 4.99. This suggests that the sheer volume of content in major categories leads to an averaging effect, where a high volume of lower-rated podcasts dilutes the score of the top performers. 
+
+**Digest Content has lowest Rating:**
+
+The categories with the lowest ratings are dominated by time-sensitive or high-volume content, indicating audience fatigue or less passionate reviews for general consumption. Content that is produced daily or covers sensitive, polarizing topics like politics or true-crime tends to pull down the overall average rating for its category.
+
+The highest-volume podcast in the `daily` category has a very low rating of 3.34, reinforcing the low average rating of the entire `daily` category (3.97).
+
+**Top Podcasts Dominate the Review Landscape:**
+
+The most popular podcast by review count, "Crime Junkie," has 33,104 reviews, which is more than three times the count of the next podcast, "My Favorite Murder" (10,675). This shows that a few dominant market leaders control the vast majority of engagement in their segments.
+
+**Cross-Category Performance:**
+
+The presence of high-performing podcasts like 'Discover Your Talent...' and 'Loan Officer Freedom' in both the `education` and `business` categories illustrates that successful podcasts often bridge multiple popular categories, a structure that required ad-hoc data transformation (SPLIT/UNNEST) to analyze accurately.
