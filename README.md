@@ -5,7 +5,7 @@ The project includes several steps, including creation of database schema,  data
 
 ## 🚀 Project Goals
 
-The main goal was to explore podcast data to gather information on particular categories' and topics' popularity and ratings, top podcasts' performance in comparison of majority of content.
+The main goal - to explore podcast data to gather information on particular categories' and topics' popularity and ratings, top podcasts' performance in comparison of majority of content.
 
 **Tasks:**
 * **Database Design:** establishing a relational schema to explore the database structure.
